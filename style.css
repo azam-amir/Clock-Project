@@ -59,3 +59,7 @@ body {
   height: var(--h);
   border-radius: 8px;
 }
+#madeByMe {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 150px;
+}
