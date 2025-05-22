@@ -63,3 +63,18 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-left: 150px;
 }
+.main-container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 750px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  #madeByMe {
+    margin-right: 120px;
+    width: 50%;
+  }
+}
